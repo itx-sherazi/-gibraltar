@@ -78,7 +78,6 @@ export default function AppLayout({ children, t, currentLang, isRtl, onLanguageC
 
             <hr className="my-4" />
 
-            {/* Language Selector */}
             <div className="mb-4">
                 <label className="form-label text-muted small text-uppercase fw-bold mb-3">{t.language}</label>
                 <div className="btn-group w-100" role="group">
